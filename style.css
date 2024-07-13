@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(5, 43, 84);
+}
+nav{
+    background: rgba(5, 158, 235, 0.955);
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 5px;
+}
+nav a:hover{
+    color: rgb(0, 0, 0);
+}
+label{
+    color: white;
+    font-size: 30px;
+    line-height: 70px;
+    padding: 0 30px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.hey:hover{
+    cursor: pointer;
+    
+    background-color:rgba(245, 247, 249, 0.955);
+}
+nav ul{
+    margin: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 16px;
+    padding: 7px 13px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+    background: rgb(19, 101, 179)
+    
+}
+
+h1{
+    text-align: center;
+    padding: 20px;  
+}
+p{
+    display: flex;
+    justify-content: center;
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 5px 10px;
+}
+hr{
+    margin:30px;
+}
+h2{
+    font-weight: lighter;
+    font-size: 20px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.container div{
+    width: 100px;
+    margin: 20px;
+    flex-basis: 20%;
+}
+.sktitle{
+    font-weight: bolder;
+    font-size: 40px;
+    margin: 3%;
+}
+.contact{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 10%;
+    color: rgb(255, 47, 47);
+    
+}
+
